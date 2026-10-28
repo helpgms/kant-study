@@ -1,0 +1,114 @@
+{
+  "v": 4,
+  "createdOnFiles": {
+    "v": 1,
+    "at": "2026-10-28T04:35:00Z"
+  },
+  "lists": "css",
+  "title": "Git 브랜치, 눈으로 보기",
+  "order": [
+    "cover",
+    "toc",
+    "why",
+    "g1-dots",
+    "g2-main",
+    "g3-head",
+    "b1-list",
+    "b2-create",
+    "b3-move",
+    "b4-commit",
+    "b5-commit2",
+    "b6-back",
+    "folder-switch",
+    "merge-how",
+    "b7-ff",
+    "b8-delete",
+    "naming",
+    "naming-ok",
+    "d1-create",
+    "d2-commit",
+    "d3-back",
+    "d4-main",
+    "d5-merge",
+    "d6-delete",
+    "merge-kinds",
+    "conflict-when",
+    "c1-korean",
+    "c2-main",
+    "c3-conflict",
+    "conflict-read",
+    "c4-resolve",
+    "abort",
+    "pr-flow",
+    "p1-push",
+    "pr-github",
+    "p2-merged",
+    "p3-pull",
+    "strategy",
+    "sc-adjacent",
+    "rs-adjacent",
+    "sc-delete",
+    "rs-delete",
+    "sc-addadd",
+    "rs-addadd",
+    "sc-pull",
+    "pull-config",
+    "rs-pull",
+    "sc-pr",
+    "rs-pr",
+    "conflict-sum",
+    "err-name",
+    "err-dirty",
+    "err-unmerged",
+    "cheatsheet"
+  ],
+  "sections": {
+    "intro": {
+      "description": "브랜치가 왜 필요한지, 오늘의 순서",
+      "start": "cover"
+    },
+    "graph": {
+      "description": "점(커밋), 이름표(브랜치), HEAD",
+      "start": "g1-dots"
+    },
+    "move": {
+      "description": "branch, checkout, 브랜치에서 커밋",
+      "start": "b1-list"
+    },
+    "merge": {
+      "description": "merge는 받는 쪽에서, fast-forward, 지우기, 이름 규칙",
+      "start": "merge-how"
+    },
+    "diverge": {
+      "description": "갈라진 길과 merge 커밋",
+      "start": "d1-create"
+    },
+    "conflict": {
+      "description": "충돌 읽고 풀기, merge --abort",
+      "start": "conflict-when"
+    },
+    "github": {
+      "description": "push origin 브랜치, Pull Request, GitHub Flow",
+      "start": "pr-flow"
+    },
+    "scenarios": {
+      "description": "충돌 시나리오 2~6",
+      "start": "sc-adjacent"
+    },
+    "errors": {
+      "description": "자주 보는 오류와 정리",
+      "start": "err-name"
+    }
+  },
+  "faces": {
+    "noto-sans-kr": {
+      "family": "Noto Sans KR",
+      "href": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap"
+    },
+    "jetbrains-mono": {
+      "family": "JetBrains Mono",
+      "href": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap"
+    }
+  },
+  "designSystems": []
+}
