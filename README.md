@@ -16,3 +16,9 @@ git add -A
 git commit -m "커밋 메세지 ..."
 
 ```
+
+```bash
+# push command
+git push origin main
+
+```
