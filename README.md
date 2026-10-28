@@ -10,3 +10,10 @@ git add .(현재 폴더에서 변경사항 다)
 git add -A 
 
 ```
+
+```bash
+# commit
+git commit -m "커밋 메세지 ..."
+
+
+```
